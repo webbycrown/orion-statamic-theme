@@ -1,0 +1,15 @@
+title: About
+data:
+  members:
+    -
+      id: m6z0bs2i
+      member_name: 'Nizahr Gems'
+      member_position: 'Founder, CEO'
+      member_image:
+        - our-team-members-1.jpg
+    -
+      id: m6z0d6gj
+      member_name: 'Nizahr Gems'
+      member_position: 'Founder, CEO'
+      member_image:
+        - our-team-members-2.jpg

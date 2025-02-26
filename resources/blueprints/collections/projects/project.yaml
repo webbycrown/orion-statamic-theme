@@ -1,0 +1,113 @@
+title: Project
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              type: markdown
+              display: Description
+          -
+            handle: project_details
+            field:
+              type: grid
+              display: 'Project Details'
+              fields:
+                -
+                  handle: detail_title
+                  field:
+                    type: text
+                    display: 'Detail Title'
+                -
+                  handle: detail_value
+                  field:
+                    type: text
+                    display: 'Detail Value'
+          -
+            handle: thumb_image
+            field:
+              container: assets
+              type: assets
+              display: 'Thumb Image'
+          -
+            handle: banner
+            field:
+              container: assets
+              type: assets
+              display: Banner
+          -
+            handle: gallery
+            field:
+              container: assets
+              type: assets
+              display: Gallery
+          -
+            handle: milestones
+            field:
+              type: grid
+              display: Milestones
+              fields:
+                -
+                  handle: milestone_title
+                  field:
+                    type: text
+                    display: 'Milestone Title'
+                -
+                  handle: milestone_description
+                  field:
+                    type: textarea
+                    display: 'Milestone Description'
+                -
+                  handle: milestone_date
+                  field:
+                    type: text
+                    display: 'Milestone Date'
+                -
+                  handle: milestone_image
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Milestone Image'
+          -
+            handle: artists
+            field:
+              type: grid
+              display: Artists
+              fields:
+                -
+                  handle: artist_name
+                  field:
+                    type: text
+                    display: 'Artist Name'
+                -
+                  handle: artist_position
+                  field:
+                    type: text
+                    display: 'Artist Position'
+                -
+                  handle: artist_image
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Artist Image'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

@@ -1,0 +1,76 @@
+title: Blog
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: thumb_image
+            field:
+              container: assets
+              type: assets
+              display: 'Thumb Image'
+          -
+            handle: banner_image
+            field:
+              container: assets
+              type: assets
+              display: 'Banner Image'
+          -
+            handle: short_description
+            field:
+              type: textarea
+              display: 'Short Description'
+          -
+            handle: description
+            field:
+              type: markdown
+              display: Description
+          -
+            handle: blockquote
+            field:
+              type: textarea
+              display: blockquote
+          -
+            handle: gallery
+            field:
+              container: assets
+              type: assets
+              display: Gallery
+          -
+            handle: footer_description
+            field:
+              type: markdown
+              display: 'Footer Description'
+          -
+            handle: related_blogs
+            field:
+              type: grid
+              display: 'Related Blogs'
+              fields:
+                -
+                  handle: related_blog_link
+                  field:
+                    collections:
+                      - blogs
+                    type: link
+                    display: 'Related Blog Link'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

@@ -1,0 +1,41 @@
+title: 'Career Job'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Current Openings Section'
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Title
+          -
+            handle: sub_title
+            field:
+              type: text
+              display: 'Sub Title'
+          -
+            handle: qualifications
+            field:
+              type: grid
+              display: Qualifications
+              fields:
+                -
+                  handle: qualification
+                  field:
+                    type: text
+                    display: Qualification
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

@@ -1,0 +1,104 @@
+title: Service
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: short_description
+            field:
+              type: markdown
+              display: 'Short Description'
+          -
+            handle: description
+            field:
+              type: markdown
+              display: Description
+          -
+            handle: banner_imange
+            field:
+              container: assets
+              type: assets
+              display: Banner
+          -
+            handle: gallery
+            field:
+              max_files: 2
+              container: assets
+              type: assets
+              display: Gallery
+          -
+            handle: key_milestones
+            field:
+              type: grid
+              display: 'Key Milestones'
+              fields:
+                -
+                  handle: milestone_count
+                  field:
+                    type: text
+                    display: 'Milestone Count'
+                -
+                  handle: milestone_title
+                  field:
+                    type: text
+                    display: 'Milestone Title'
+                -
+                  handle: milestone_description
+                  field:
+                    type: textarea
+                    display: 'Milestone Description'
+          -
+            handle: how_it_works
+            field:
+              type: grid
+              display: 'How it Works'
+              fields:
+                -
+                  handle: work_image
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Work Image'
+                -
+                  handle: work_title
+                  field:
+                    type: text
+                    display: 'Work Title'
+                -
+                  handle: work_description
+                  field:
+                    type: textarea
+                    display: 'Work Description'
+          -
+            handle: related_services
+            field:
+              type: grid
+              display: 'Related Services'
+              fields:
+                -
+                  handle: service_link
+                  field:
+                    collections:
+                      - services
+                    type: link
+                    display: 'Service Link'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

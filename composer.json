@@ -1,0 +1,9 @@
+{
+    "name": "webbycrown/orion-statamic-theme",
+    "extra": {
+        "statamic": {
+            "name": "Orion Statamic Theme",
+            "description": "A Statamic starter kit for construction sites."
+        }
+    }
+}

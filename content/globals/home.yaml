@@ -1,0 +1,81 @@
+title: Home
+data:
+  site_logo_black:
+    - logo-dark.svg
+  site_logo_white:
+    - logo-white.svg
+  home_title: 'Building a Stronger Future with Orion'
+  home_description: 'At Orion Construction, we believe in delivering excellence in every project we undertake. Our commitment to quality, innovation, and sustainability sets us apart as a leader in the construction industry.'
+  hero_back_image:
+    - hero-banner-1.jpg
+  our_story_title: 'Our Story'
+  our_story_description: |-
+    Founded with a vision to redefine construction standards, Orion Construction has been a pioneer in infrastructure development for decades. With an unwavering commitment to excellence, we have transformed skylines and built communities that reflect innovation, durability, and superior craftsmanship.
+
+    Our team of highly skilled professionals combines extensive industry expertise with cutting-edge technology to bring visionary projects to life. From concept to completion, we emphasize precision, sustainability, and long-term value, ensuring that every structure we create stands the test of time.
+  our_story_button_text: 'Read More'
+  our_story_button_link: /about
+  our_story_back_logo:
+    - logo-border-shape.svg
+  our_story_back_image:
+    - our-story-img.jpg
+  our_work_title: 'Our Work'
+  our_work_button_text: 'View All Projects'
+  our_work_button_link: /projects
+  why_us_title: 'Why Us?'
+  why_us_description: 'Choosing Orion Construction means partnering with a trusted industry leader committed to delivering exceptional results. With decades of experience, we provide innovative, sustainable, and cost-effective solutions tailored to meet your unique needs. Our skilled team, attention to detail, and focus on quality ensure that every project is completed on time and within budget. We prioritize client satisfaction and work diligently to bring your vision to life with precision and excellence.'
+  why_us_milestones:
+    -
+      id: m6tblny9
+      why_us_milestone_count: 99+
+      why_usmilestone_title: 'Completed Projects'
+      why_umilestone_description: 'We have successfully completed diverse projects across various sectors with excellence and efficiency.'
+    -
+      id: m6tbm7tb
+      why_us_milestone_count: 55+
+      why_usmilestone_title: 'Expert Employees'
+      why_umilestone_description: 'Our team consists of dedicated industry professionals striving for excellence in every project.'
+    -
+      id: m6tbnlz9
+      why_us_milestone_count: '43'
+      why_usmilestone_title: 'Running Projects'
+      why_umilestone_description: 'We are continuously working on new and exciting developments to shape the future.'
+  explore_title: 'Explore Our Worked Sites'
+  explore_description: 'Explore our most iconic projects that highlight our expertise, dedication, and ability to create remarkable structures. Each project reflects our commitment to quality, innovation, and precision. From concept to completion, we ensure that every development meets industry standards and exceeds customer expectations. Our portfolio showcases the impact of our work across various sectors, shaping communities and transforming landscapes.'
+  explore_button_text: 'Discuss New Project Now!'
+  explore_button_link: /contact
+  explore_gallery_image_1:
+    - our-explore-worked-img1.jpg
+  explore_gallery_image_2:
+    - our-explore-worked-img2.jpg
+  explore_gallery_image_3:
+    - our-explore-worked-img3.jpg
+  explore_gallery_image_4:
+    - our-explore-worked-img4.jpg
+  testimonial_title: Testimonials
+  testimonial_icon:
+    - fontisto_quote-right.svg
+  testimonial_back_logo:
+    - testimonials-bg-shape.svg
+  testimonial_details:
+    -
+      id: m6tbrzl1
+      testimonial_name: 'Kriti Jonnas'
+      testimonial_description: 'Orion Construction turned our vision into reality with unmatched expertise, professionalism, and dedication. Their commitment to quality, attention to detail, and innovative approach exceeded our expectations at every stage. From planning to execution, they ensured seamless project delivery, creating a structure that not only met but surpassed our goals. We highly recommend their exceptional services.'
+    -
+      id: m7k6n4k5
+      testimonial_name: 'Jared Flynns'
+      testimonial_description: 'From concept to completion, Orion provides outstanding service. Their team listened to our needs and made sure every detail was taken care of. We are thrilled with the results!'
+    -
+      id: m7k6o17c
+      testimonial_name: 'Natalie Spencer'
+      testimonial_description: 'Choosing Orion for our residential project was the best decision we made. Their expertise, clear communication, and focus on sustainability made the entire process smooth and stress-free.'
+  footer_email: info@orionconstruct.com
+  footer_email_link: 'mailto:info@orionconstruct.com'
+  footer_contact: '+1 234 5678 999'
+  footer_contact_link: 'tel:+12345678999'
+  footer_address: 'North Zone, Colambia.'
+  footer_back_image:
+    - footer-bg-img.jpg
+  footer_logo:
+    - logo-white.svg

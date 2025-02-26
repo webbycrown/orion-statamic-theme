@@ -1,0 +1,153 @@
+<!-- start main wrapper -->
+<div class="main-wrapper">
+
+  <!-- start hero section -->
+  <section class="hero-section md:min-h-screen relative">
+    <div class="container">
+      <div class="relative mb-10 md:mb-20 -mx-5 md:mx-0">
+        <img src="assets/images/about-page-hero.jpg" alt="about-page-hero" class="w-full object-cover h-[250px] sm:h-auto">
+        <div class="absolute bottom-0 right-5 md:right-0 py-5 sm:py-8 lg:py-12 px-6 md:px-14 bg-white text-center md:text-left lg:max-w-[545px] w-[calc(100%-40px)] lg:w-full">
+          <h1 class="mb-0">{{ title }}</h1>
+        </div>
+      </div>
+
+      <div>{{ content }}</div>
+    </div>
+  </section>
+  <!-- end hero section -->
+
+
+  <!-- start Our Work section -->
+  <section class="our-work-section relative py-8 lg:py-10 xl:py-12">
+    <div class="container">
+      <div class="our-work-slider pr-2 sm:pr-[10%] lg:pr-[20%]">
+        <div class="swiper mySwiper overflow-visible">
+          <div class="swiper-wrapper">
+            {{ collection:projects limit="3" }}
+            <div class="swiper-slide">
+              <!-- Our Work grid -->
+              <div class="group">
+                <div class="overflow-hidden relative before:pt-[114%] before:block">
+                  <a href="{{ url }}/projects/{{ slug }}" class="absolute top-0 left-0 w-full h-full block">
+                    {{ thumb_image }}
+                    <img src="{{ url }}" alt="img" class="h-full w-full object-cover">
+                    {{ /thumb_image }}
+                  </a>
+                  <a href="{{ url }}/projects/{{ slug }}" class="w-[50px] h-[50px] lg:w-[85px] lg:h-[85px] rounded-full bg-white/80 items-center justify-center absolute top-3 lg:top-5 right-3 lg:right-5 hover:bg-white hover:text-primary-900 hidden group-hover:flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                      <path d="M24.8251 24.825H44.5722M44.5722 24.825V44.572M44.5722 24.825L24.8251 44.572" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="pt-3 xl:pt-8">
+                  <h3 class="text-lg font-medium font-lexend xl:text-2xl"><a href="{{ url }}/projects/{{ slug }}" class="group-hover:text-primary-900">{{ title }}</a></h3>
+                </div>
+              </div>
+            </div>
+            {{ /collection:projects }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Our Work section -->
+
+  <!-- start Why Us? section -->
+  <section class="our-Why-us-section relative md:py-8 lg:py-12">
+    <div class="container">
+      <div class="mb-5">
+        <h2 class="title mb-5">{{ home:why_us_title }}</h2>
+        <p class="mb-9">{{ home:why_us_description }}</p>
+      </div>
+
+      <div class="grid lg:gap-10 gap-6 xl:gap-20 grid-cols-1 md:grid-cols-3">
+        {{ home:why_us_milestones }}
+        <div class="border-t border-primary-900 pt-8 md:pt-5 lg:pt-12 relative before:w-5 before:h-5 before:bg-primary-900 before:rounded-full before:absolute before:left-0 before:-top-3">
+          <div class="md:flex gap-2 xl:gap-5">
+            <h3 class="text-3xl xl:text-[45px] w-[50px] xl:w-[75px] mb-0 shrink-0 md:leading-4xl">{{ why_us_milestone_count }}</h3>
+            <div>
+              <h4 class="font-lexend text-lg xl:text-2xl mb-3 xl:leading-2xl">{{ why_usmilestone_title }}</h4>
+              <p>{{ why_umilestone_description }}</p>
+            </div>
+          </div>
+        </div>
+        {{ /home:why_us_milestones }}
+
+      </div>
+    </div>
+  </section>
+  <!-- end Why Us? section -->
+
+  <!-- start Our Work section -->
+  <section class="our-work-section relative py-8 lg:py-10 xl:py-12 z-1">
+    <div class="container">
+      <div class="text-center md:text-left md:flex items-center justify-between mb-5 lg:mb-10 border-b border-black/10 mb-10 pb-5">
+        <h2 class="title md:mb-0">Our Team Members</h2>
+        <a href="javascript:;" class="all-btn btn-primary">View all</a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10 xl:gap-20 items-start">
+        {{ about:members }}
+        <div class="relative before:pt-full before:block overflow-hidden group">
+            <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+              {{ member_image }}
+              <img src="{{ url }}" alt="img" class="w-full h-full object-cover">
+              {{ /member_image }}
+            </div>
+            <div class="absolute top-0 left-0 w-full h-full flex items-end p-5 xl:p-12 bg-[#747474]/60 transition-all translate-y-full group-hover:translate-y-0">
+              <div class="text-white">
+                <h3 class="text-3xl 1xl:text-[45px] text-white"><a href="javascript:;" class="hover:underline">{{ member_name }}</a></h3>
+                <span>{{ member_position }}</span>
+              </div>
+            </div>
+        </div>
+        {{ /about:members }}
+      </div>          
+
+    </div>
+  </section>
+  <!-- end Our Work section -->
+
+
+  <!-- start Testimonials section -->
+  <section class="our-testimonials-section relative pt-12 md:pt-20 lg:pt-32 xl:pt-60 pb-12 md:pb-20 lg:pb-32 xl:pb-52 overflow-hidden -mt-10 md:-mt-16 lg:-mt-32 xl:-mt-56">
+    <div class="absolute bottom-0 left-0 w-full h-full flex items-end justify-center">
+      {{ home:testimonial_back_logo }}
+      <img src="{{ url }}" alt="img" class="max-w-[80%] 1xl:max-w-full">
+      {{ /home:testimonial_back_logo }}
+    </div>
+    <div class="container relative z-1">
+      <div class="mb-5 md:mb-10 xl:mb-14 text-center">
+        <h2 class="title mb-0">{{ home:testimonial_title }}</h2>
+      </div>
+
+      <!-- Start Testimonials slider -->
+      <div class="testimonials-slider text-center relative max-w-[1500px] mx-auto px-3 sm:px-10 md:px-20">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            {{ home:testimonial_details }}
+            <div class="swiper-slide">
+              <div class="max-w-[1220px] mx-auto">
+                <div class="mb-5 md:mb-10 xl:mb-14 block">
+                  {{ home:testimonial_icon }}
+                  <img src="{{ url }}" alt="img" class="max-w-[35px] md:max-w-full mx-auto">
+                  {{ /home:testimonial_icon }}
+                </div>
+                <div>
+                  <p class="text-lg xl:text-2xl xl:leading-2xl">“{{ testimonial_description }}”</p>
+                  <h5 class="text-lg md:text-[24px] md:mt-10 xl:mt-20">-{{ testimonial_name }}</h5>
+                </div>
+              </div>
+            </div>
+            {{ /home:testimonial_details }}
+          </div>
+          
+        </div>
+        <div class="flex md:block justify-center gap-2 mt-5 md:mt-0">
+          <div class="swiper-button-prev arrow-slider static md:absolute"></div>
+          <div class="swiper-button-next arrow-slider static md:absolute"></div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- end Testimonials section -->

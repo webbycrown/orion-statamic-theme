@@ -1,0 +1,41 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: find_us_1
+            field:
+              type: textarea
+              display: 'Find Us 1'
+          -
+            handle: find_us_2
+            field:
+              type: textarea
+              display: 'Find Us 2'
+          -
+            handle: contact_email
+            field:
+              type: text
+              display: 'Contact Email'
+          -
+            handle: contact_number
+            field:
+              type: text
+              display: 'Contact Number'
+          -
+            handle: facebook_url
+            field:
+              type: text
+              display: 'Facebook Url'
+          -
+            handle: twitter_url
+            field:
+              type: text
+              display: 'Twitter Url'
+          -
+            handle: instagram_url
+            field:
+              type: text
+              display: 'Instagram Url'

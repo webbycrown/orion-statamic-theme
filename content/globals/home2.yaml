@@ -1,0 +1,63 @@
+title: Home2
+data:
+  hero_title: 'We’re not Constructing, We build Your Dreams.'
+  hero_sub_title: 'Constructing every project with expertise'
+  hero_banner:
+    - hero-banner-2.jpg
+  hero_key_milestones:
+    -
+      id: m7iy1noe
+      milestone_icon:
+        - construction-icon.svg
+      milestone_title: Construction
+      milestone_description: 'To deliver high-quality construction solutions for residential, commercial, and industrial projects. We ensure precision, durability, and timely execution.'
+    -
+      id: m7iy2x1p
+      milestone_icon:
+        - images/renvation-icon.svg
+      milestone_title: Renovation
+      milestone_description: 'Transform old spaces into modern, functional areas. Our renovation services blend style and innovation to meet your unique needs.'
+    -
+      id: m7iy5l2t
+      milestone_icon:
+        - images/space-management-icon.svg
+      milestone_title: 'Space Management'
+      milestone_description: 'Optimize and maximize your space with smart, efficient design solutions. We focus on functionality, aesthetics, and seamless use of every square foot.'
+  side_image:
+    - about-image.jpg
+  title: 'Create Your Vision, Shape The Future'
+  description: 'Orion Company in architecture and construction showcases your projects with a blend of creativity and functionality, including cutting-edge design and seamless layout. Whether you are highlighting residential, commercial, or urban spaces, we present your work with beauty, inspire your audience, and leave a lasting impact. We are the perfect fit for modern architects and builders who want to redefine the world one structure at a time.'
+  button_name: 'Read More'
+  button_link: /about
+  choose_title: 'Why Choose Orion Construction Theme?'
+  choose_description: |-
+    <p>Enjoy a better living experience with Orion. We focus on smart design, eco-friendly construction, and great locations, combined with friendly service to make your home perfect for you.</p>
+    <p>Our process is simple. We start by inspecting the site, creating a custom design, and planning your budget. This helps us ensure that the project starts right and stays on track.</p>
+    <p>Our skilled team works hard to build your home on time, adhering to high standards. After that, we carefully inspect everything to make sure your home is complete and ready for you to move in. We are not building, we are creating your dreams.</p>
+  choose_milestones:
+    -
+      id: m7izhpxn
+      choose_milestone_count: 459+
+      choose_milestone_title: 'Completed Projects'
+    -
+      id: m7izhxx6
+      choose_milestone_count: '55'
+      choose_milestone_title: 'Team Members'
+    -
+      id: m7izi4qi
+      choose_milestone_count: 99+
+      choose_milestone_title: 'Running Projects'
+  choose_side_image:
+    - about-image-1.jpg
+  choose_side_description: 'New Construction Starts Here. Customize Your Space Today With Trusted, Skilled Contractors'
+  choose_side_button_title: 'Read More'
+  choose_side_button_link: /about
+  news_title: 'Our News & Blogs'
+  news_description: 'Stay up to date with the latest trends, tips, and insights in the construction industry. Our blog section is designed to keep you informed and inspired, whether you’re looking for ideas to modernize your business.'
+  dream_back_image:
+    - contact-now-bg.jpg
+  dream_title: 'Have any dream in mind?'
+  dream_description: 'Let us turn your dream into reality with expert craftsmanship.'
+  contact_title: 'Let’s Build Something Great Together'
+  contact_button_text: 'Contact Now'
+  contact_button_link: /contact

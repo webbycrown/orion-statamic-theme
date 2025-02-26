@@ -1,0 +1,245 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Hero Section'
+        fields:
+          -
+            handle: site_logo_black
+            field:
+              container: assets
+              type: assets
+              display: 'Site Logo Black'
+          -
+            handle: site_logo_white
+            field:
+              container: assets
+              type: assets
+              display: 'Site Logo White'
+          -
+            handle: home_title
+            field:
+              type: text
+              display: 'Home Title'
+          -
+            handle: home_description
+            field:
+              type: markdown
+              display: 'Home Description'
+          -
+            handle: hero_back_image
+            field:
+              container: assets
+              type: assets
+              display: 'Hero Back Image'
+      -
+        display: 'Our Story Section'
+        fields:
+          -
+            handle: our_story_title
+            field:
+              type: text
+              display: 'Our Story Title'
+          -
+            handle: our_story_description
+            field:
+              type: markdown
+              display: 'Our Story Description'
+          -
+            handle: our_story_button_text
+            field:
+              type: text
+              display: 'Our Story Button Text'
+          -
+            handle: our_story_button_link
+            field:
+              type: text
+              display: 'Our Story Button Link'
+          -
+            handle: our_story_back_logo
+            field:
+              container: assets
+              type: assets
+              display: 'Our Story Back Logo'
+          -
+            handle: our_story_back_image
+            field:
+              container: assets
+              type: assets
+              display: 'Our Story Back Image'
+      -
+        display: 'Our Work Section'
+        fields:
+          -
+            handle: our_work_title
+            field:
+              type: text
+              display: 'Our Work Title'
+          -
+            handle: our_work_button_text
+            field:
+              type: text
+              display: 'Our Work Button Text'
+          -
+            handle: our_work_button_link
+            field:
+              type: text
+              display: 'Our Work Button Link'
+      -
+        display: 'Why Us Section'
+        fields:
+          -
+            handle: why_us_title
+            field:
+              type: text
+              display: 'Why Us Title'
+          -
+            handle: why_us_description
+            field:
+              type: markdown
+              display: 'Why Us Description'
+          -
+            handle: why_us_milestones
+            field:
+              type: grid
+              display: 'Why Us Milestones'
+              fields:
+                -
+                  handle: why_us_milestone_count
+                  field:
+                    type: text
+                    display: 'Why Us Milestone Count'
+                -
+                  handle: why_usmilestone_title
+                  field:
+                    type: text
+                    display: 'Why Us Milestone Title'
+                -
+                  handle: why_umilestone_description
+                  field:
+                    type: textarea
+                    display: 'Why Us Milestone Description'
+      -
+        display: 'Explore Our Worked Sites Section'
+        fields:
+          -
+            handle: explore_title
+            field:
+              type: text
+              display: 'Explore Title'
+          -
+            handle: explore_description
+            field:
+              type: textarea
+              display: 'Explore Description'
+          -
+            handle: explore_button_text
+            field:
+              type: text
+              display: 'Explore Button Text'
+          -
+            handle: explore_button_link
+            field:
+              type: text
+              display: 'Explore Button Link'
+          -
+            handle: explore_gallery_image_1
+            field:
+              container: assets
+              type: assets
+              display: 'Explore Gallery Image 1'
+          -
+            handle: explore_gallery_image_2
+            field:
+              container: assets
+              type: assets
+              display: 'Explore Gallery Image 2'
+          -
+            handle: explore_gallery_image_3
+            field:
+              container: assets
+              type: assets
+              display: 'Explore Gallery Image 3'
+          -
+            handle: explore_gallery_image_4
+            field:
+              container: assets
+              type: assets
+              display: 'Explore Gallery Image 4'
+      -
+        display: 'Testimonials Section'
+        fields:
+          -
+            handle: testimonial_title
+            field:
+              type: text
+              display: 'Testimonial Title'
+          -
+            handle: testimonial_icon
+            field:
+              container: assets
+              type: assets
+              display: 'Testimonial Icon'
+          -
+            handle: testimonial_back_logo
+            field:
+              container: assets
+              type: assets
+              display: 'Testimonial Back Logo'
+          -
+            handle: testimonial_details
+            field:
+              type: grid
+              display: 'Testimonial Details'
+              fields:
+                -
+                  handle: testimonial_name
+                  field:
+                    type: text
+                    display: 'Testimonial Name'
+                -
+                  handle: testimonial_description
+                  field:
+                    type: textarea
+                    display: 'Testimonial Description'
+      -
+        display: 'Footer Section'
+        fields:
+          -
+            handle: footer_email
+            field:
+              type: text
+              display: 'Footer Email'
+          -
+            handle: footer_email_link
+            field:
+              type: text
+              display: 'Footer Email Link'
+          -
+            handle: footer_contact
+            field:
+              type: text
+              display: 'Footer Contact'
+          -
+            handle: footer_contact_link
+            field:
+              type: text
+              display: 'Footer Contact Link'
+          -
+            handle: footer_address
+            field:
+              type: text
+              display: 'Footer Address'
+          -
+            handle: footer_back_image
+            field:
+              container: assets
+              type: assets
+              display: 'Footer Back Image'
+          -
+            handle: footer_logo
+            field:
+              container: assets
+              type: assets
+              display: 'Footer Logo'

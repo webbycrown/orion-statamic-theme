@@ -1,0 +1,41 @@
+
+  <!-- start Our Work section -->
+  <section class="our-work-section relative py-8 lg:py-10 xl:py-12 sm:mb-10 md:mb-24">
+    <div class="container">
+      <div class="text-center md:text-left md:flex items-center justify-between mb-5 lg:mb-10">
+        <h2 class="title mb-0">Our Work</h2>
+      </div>
+      {{ collection:projects as="projects" paginate="12" }}
+      <div id="wc-item-list" class="our-work-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 1xl:gap-10 2xl:gap-14">
+        <!-- Our Work grid -->
+        {{ projects }}
+          <div class="group">
+            <div class="overflow-hidden relative before:pt-[114%] before:block">
+              <a href="{{url}}" class="absolute top-0 left-0 w-full h-full block">
+                {{ thumb_image }}
+                <img src="{{url}}" alt="img" class="h-full w-full object-cover">
+                {{ /thumb_image }}
+              </a>
+              <a href="{{url}}" class="w-[50px] h-[50px] lg:w-[85px] lg:h-[85px] rounded-full bg-white/80 items-center justify-center absolute top-3 lg:top-5 right-3 lg:right-5 hover:bg-white hover:text-primary-900 hidden group-hover:flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                  <path d="M24.8251 24.825H44.5722M44.5722 24.825V44.572M44.5722 24.825L24.8251 44.572" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+            <div class="pt-3 xl:pt-8">
+              <h3 class="text-lg font-medium font-lexend xl:text-2xl"><a href="{{url}}" class="group-hover:text-primary-900">{{ title }}</a></h3>
+            </div>
+          </div>
+        {{ /projects }}
+      </div>
+      {{ paginate }}
+      {{ if next_page }}
+      <div id="pagination" data-next-page="{{ next_page }}" class="text-center mt-6 sm:mt-10">
+        <button id="load-more-btn" class="all-btn btn-primary btn-icon">Load More <span class="load-more-btn wc-spinner hidden"><img src="{{ theme:asset src='assets/images/loader-icon.svg' }}" alt="loader-icon"></span></button>
+      </div>
+      {{ /if }}
+      {{ /paginate }}
+      {{ /collection:projects }}
+    </div>
+  </section>
+  <!-- end Our Work section -->

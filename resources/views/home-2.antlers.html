@@ -1,0 +1,308 @@
+    <!-- start main wrapper -->
+    <div class="main-wrapper overflow-x-hidden">
+      <!-- start hero section -->
+      <section class="hero-section relative">
+        <div class="container">
+          <div class="relative w-full md:hidden">
+            <div class="hidden md:block absolute -right-8 xl:-right-24 -top-36">
+              <img src="assets/images/orion-construction-text.png" alt="icon img"
+                class="transition-all orion-construction-img">
+              <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center"><img
+                  src="assets/images/logo-icon.svg" alt="icon img" class=""></div>
+            </div>
+            <img src="assets/images/hero-banner-2.jpg" alt="hero img" class="w-full">
+          </div>
+          <div class="container-two">
+            <!-- start hero content -->
+            <div class="pt-5 md:py-10 lg:py-24">
+              <!-- container -->
+              <div class="w-full md:w-1/2">
+                <h5 class="sub-title md:mb-8">{{ home2:hero_sub_title }}</h5>
+                <h1 class="mb-0">{{ home2:hero_title }}</h1>
+              </div>
+            </div>
+          </div>
+          <!-- end hero content slider-->
+          <!-- hero banner img -->
+          <div class="relative w-full hidden md:block">
+            <div class="hidden md:block absolute -right-8 xl:-right-24 -top-36">
+              <img src="{{ theme:asset src='assets/images/orion-construction-text.png' }}" alt="icon img"
+                class="transition-all orion-construction-img">
+              <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center"><img
+                  src="{{ theme:asset src='assets/images/logo-icon.svg' }}" alt="icon img" class=""></div>
+            </div>
+            <img src="assets/images/hero-banner-2.jpg" alt="hero img" class="w-full">
+          </div>
+        </div>
+
+      </section>
+      <!-- end hero section -->
+      <!-- start Icon service section -->
+      <section class="py-10 xl:py-24">
+        <div class="container">
+          <div class="container-two">
+            <div class="md:flex justify-between gap-6">
+              {{ home2:hero_key_milestones }}
+              <div class="lg:flex items-center gap-5 md:w-1/3 md:my-0 my-5">
+                <div
+                  class="shrink-0 flex items-center justify-center max-w-[70px] lg:max-w-[90px] h-[90px] lg:h-auto 1xl:max-w-[112px] w-full">
+                  {{ milestone_icon }}
+                  <img src="{{ url }}" alt="icon img" class="max-w-full h-full lg:w-24 w-20">
+                  {{ /milestone_icon }}
+                </div>
+                <div class="border-t lg:border-t-0 lg:border-l border-black pt-3 mt-3 lg:mt-0 lg:pt-0 lg:pl-6">
+                  <h3 class="mb-1 text-2xl lg:text-[25px]">{{ milestone_title }}</h3>
+                  <p class="text-md leading-normal mb-0">{{ milestone_description }}</p>
+                </div>
+              </div>
+              {{ /home2:hero_key_milestones }}
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Icon service section -->
+
+      <!-- start about Image with text section -->
+      <section class="about-image-with-text-section relative overflow-hidden mb-14 md:mb-16 xl:mb-24">
+        <div class="container">
+          <div class="container-two flex flex-wrap">
+            <div class="w-full md:w-1/2 order-2 md:order-1">
+              <div class="pt-5 md:py-20 xl:py-44 md:pr-8 lg:pr-14">
+                <h2 class="title">{{ home2:title }}</h2>
+                <p>{{ home2:description }}</p>
+                <a href="{{ home2:button_link }}" class="all-btn">{{ home2:button_name }}</a>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 md:absolute top-0 right-0 h-full order-1 md:order-2">
+              {{ home2:side_image }}
+              <img src="{{ url }}" alt="img" class="h-full">
+              {{ /home2:side_image }}
+              }
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about Image with text section -->
+
+      <!-- start Our Projects section -->
+      <section class="our-projects-section our-projects-slider relative bg-gray-300 md:bg-transparent">
+        <div class="container">
+          <div class="container-two">
+            <div class="bg-gray-300 py-10 xl:py-16 md:px-5 xl:px-10">
+              <div class="flex items-end justify-between mb-8">
+                <div>
+                  <h5 class="sub-title">Portfolio</h5>
+                  <h2 class="title mb-0">Our Projects</h2>
+                </div>
+                <div class="flex justify-end gap-2 slider-custom-arrow">
+                  <div class="swiper-button-prev arrow-slider static">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="23" viewBox="0 0 36 23" fill="none">
+                      <g clip-path="url(#clip0_100_117)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M5.44863 12.7578L13.6843 20.9909L11.8315 22.8411L0.439697 11.4493L11.8315 0.0549316L13.6843 1.90777L5.44863 10.1408H31.4118V12.7578H5.44863Z"
+                          fill="currentColor" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_100_117">
+                          <rect width="35.9837" height="22.8987" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="swiper-button-next arrow-slider static">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="23" viewBox="0 0 37 23" fill="none">
+                      <g clip-path="url(#clip0_100_119)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M31.48 12.7578L23.2443 20.9909L25.0971 22.8411L36.4889 11.4493L25.0971 0.0549316L23.2443 1.90777L31.48 10.1408H5.51679V12.7578H31.48Z"
+                          fill="currentColor" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_100_119">
+                          <rect width="35.9837" height="22.8987" fill="white" transform="matrix(-1 0 0 1 36.9286 0)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  {{ collection:projects limit="7" }}
+                  <div class="swiper-slide">
+                    <!-- projects box -->
+                    <div class="our-projects-box bg-white group">
+                      <div class="relative overflow-hidden before:pt-[90%] before:block">
+                        <a href="{{ url }}" class="absolute top-0 left-0 w-full h-full block">
+                          {{ thumb_image }}
+                          <img src="{{ url }}" alt="img"
+                            class="h-full w-full object-cover transition-all group-hover:scale-110 duration-300">
+                          {{ /thumb_image }}
+                        </a>
+                      </div>
+                      <div class="p-4 xl:p-7">
+                        <h6 class="text-md tracking-[0.8px] font-lexend mb-3 uppercase" style="font-size: 13px">{{ project_details limit="1" }} {{ detail_value }} {{ /project_details }}</h6>
+                        <h3 class="mb-2 mt-4"><a href="{{ url }}" class="group-hover:text-primary-900">{{ title }}</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  {{ /collection:projects }}
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- end Our Projects section -->
+
+      <!-- start Our Projects section -->
+      <section class="our-projects-section relative py-10 xl:py-20">
+        <div class="container">
+          <div class="container-two">
+            <h5 class="sub-title">Orion Constructions.</h5>
+            <div class="lg:flex gap-10">
+              <div class="w-full lg:w-1/5 xl:w-1/3">
+                <h2 class="title lg:mb-0">{{ home2:choose_title }}</h2>
+              </div>
+              <div class="w-full lg:w-4/5 xl:w-2/3">
+                {{ home2:choose_description }}
+
+                <div class="border-t border-black xl:pt-8 pt-5 xl:mt-12 mt-6 md:flex justify-between space-y-4 md:space-y-0">
+                  {{ home2:choose_milestones }}
+                  <div class="flex 1xl:gap-4 gap-2  1xl:text-lg text-md font-normal md:w-1/3">
+                    <h4
+                      class="text-[25px] 1xl:text-[36px] md:leading-[40px] text-primary-900 m-0 font-normal max-w-[60px] w-full md:w-auto md:max-w-none">{{ choose_milestone_count }}</h4>
+                    <span class="sm:mt-1">{{ choose_milestone_title }}</span>
+                  </div>
+                  {{ /home2:choose_milestones }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start about Image with text section -->
+      <section class="about-image-with-text-section relative overflow-hidden mb-10 md:mb-16 xl:mb-24">
+        <div class="container">
+          <div class="container-two lg:flex items-center">
+            <div class="w-full lg:w-2/3">
+              <div
+                class="p-5 xl::p-8 pl-0 bg-primary-900 relative before:bg-primary-900 before:w-[500%] before:h-full before:absolute before:left-0 before:top-0 before:-ml-[500%]">
+                {{ home2:choose_side_image }}
+                <img src="{{ url }}" alt="img" class="w-full">
+                {{ /home2:choose_side_image }}
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3">
+              <div class="py-6 lg:p-6 xl:p-10">
+                <p class="text-2xl md:text-3xl 1xl:text-[34px] leading-tight font-el-messiri lg:mb-10 mb-3">{{ home2:choose_side_description }}</p>
+                <a href="{{ home2:choose_side_button_link }}" class="all-btn">{{ home2:choose_side_button_title }}</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- end about Image with text section -->
+
+      <!-- start Our News & Blogs section -->
+      <section class="relative blog-grid-slider">
+        <div class="container">
+          <div class="container-two">
+            <div class="sm:flex items-end justify-between lg:mb-8 mb-4">
+              <div>
+                <h5 class="sub-title">Latest Updates</h5>
+                <h2 class="title mb-0">{{ home2:news_title }}</h2>
+                <p class="max-w-[670px]">{{ home2:news_description }}</p>
+              </div>
+              <div class="flex sm:justify-end gap-2 pt-2 sm:pt-0 slider-custom-arrow">
+                <div class="swiper-button-prev arrow-slider static">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="23" viewBox="0 0 36 23" fill="none">
+                    <g clip-path="url(#clip0_100_117)">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.44863 12.7578L13.6843 20.9909L11.8315 22.8411L0.439697 11.4493L11.8315 0.0549316L13.6843 1.90777L5.44863 10.1408H31.4118V12.7578H5.44863Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_100_117">
+                        <rect width="35.9837" height="22.8987" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="swiper-button-next arrow-slider static">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="37" height="23" viewBox="0 0 37 23" fill="none">
+                    <g clip-path="url(#clip0_100_119)">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M31.48 12.7578L23.2443 20.9909L25.0971 22.8411L36.4889 11.4493L25.0971 0.0549316L23.2443 1.90777L31.48 10.1408H5.51679V12.7578H31.48Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_100_119">
+                        <rect width="35.9837" height="22.8987" fill="white" transform="matrix(-1 0 0 1 36.9286 0)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper mySwiper pr-2 sm:pr-[10%] lg:pr-[17%] overflow-visible">
+              <div class="swiper-wrapper">
+
+                {{ collection:blogs as="blogs" paginate="5" }}
+                {{ blogs }}
+                <div class="swiper-slide">
+                  <!-- blog box -->
+                  <div class="blog-box bg-gray-200 group">
+                    <div class="relative overflow-hidden before:pt-[52%] before:block">
+                      <a href="{{ url }}" class="absolute top-0 left-0 w-full h-full block">
+                        {{ thumb_image }}
+                        <img src="{{ url }}" alt="img"
+                          class="h-full w-full object-cover transition-all group-hover:scale-110 duration-300">
+                        {{ /thumb_image }}
+                      </a>
+                    </div>
+                    <div class="p-4 xl:p-7">
+                      <h3 class="border-b border-black/20 lg:pb-4 lg:mb-5 pb-2 mb-2"><a href="{{ url }}"
+                          class="group-hover:text-primary-900">{{ title }}</a></h3>
+                      <p class="m-0">{{ short_description }}</p>
+                    </div>
+                  </div>
+                </div>
+                {{ /blogs }}
+                {{ /collection:blogs }}
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end Our News & Blogs section -->
+
+    <!-- start Contact Now section -->
+    <section
+      class="bg-cover bg-no-repeat bg-left-top pb-8 md:pb-12 pt-14 md:pt-24 xl:pt-48 relative py-20 before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-gradient-to-b before:from-white"
+      style="background-image: url('{{ home2:dream_back_image  }}{{ url  }}{{ /home2:dream_back_image  }}');">
+      <div class="container relative z-1">
+        <div class="container-two">
+          <div class="max-w-[800px]">
+            <h2 class="title mb-5 md:text-left text-center">{{ home2:dream_title }}</h2>
+            <p class="mb-6 md:mb-10 md:text-left text-center">{{ home2:dream_description }}</p>
+          </div>
+          <div class="bg-primary-900 p-5 xl:p-12 text-center md:text-left md:flex items-center justify-between">
+            <h3 class="text-1xl xl:text-[34px] md:leading-[30px] text-white md:m-0 font-normal">- {{ home2:contact_title }}</h3>
+            <a href="{{ home2:contact_button_link }}" class="all-btn light-btn">{{ home2:contact_button_text }}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Now section -->

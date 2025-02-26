@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site:name }}</title>
+        {{ vite src="resources/js/site.js|resources/css/site.css" }}
+
+        <!-- Project favicon link -->
+        <link rel="icon" href="{{ theme:asset src='assets/images/favicon.png' }}" type="image/gif">
+
+        <!-- Fonts style file -->
+        <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+        <!-- Custom Libraries style start -->
+
+        <!-- Swiper Bundle slider style file -->
+        <link rel="stylesheet" type="text/css" href="{{ theme:asset src='assets/css/swiper-bundle.min.css' }}">
+
+        <!-- Custom Libraries style end -->
+
+        <!-- Custom style file -->
+        <link rel="stylesheet" type="text/css" href="{{ theme:asset src='assets/css/styles.css' }}">
+
+    </head>
+    <body>
+
+        <!-- Preloader -->
+        <div class="preloader ">
+            <div class="preloader-inner">
+                <svg width="51" height="57" viewBox="0 0 51 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.941162 23.948V5.20612L17.3693 14.23V32.9719L0.941162 23.948Z" stroke="#186F65" stroke-width="0.941101"/>
+                    <path d="M17.5193 52.0581L1.28833 42.6871L17.3173 32.9719L33.5483 42.3429L17.5193 52.0581Z" stroke="#186F65" stroke-width="0.941101"/>
+                    <path d="M33.4502 42.3429V23.601L49.8783 32.6248V51.3668L33.4502 42.3429Z" stroke="#186F65" stroke-width="0.941101"/>
+                    <path d="M33.5157 23.5981L17.2847 14.2272L33.3136 4.51195L49.5446 13.8829L33.5157 23.5981Z" stroke="#186F65" stroke-width="0.941101"/>
+                </svg>
+            </div>
+        </div>        
+
+
+        {{ if url == '/home-2' }}
+            {{ partial:layout/home2_layout }}
+        {{ elseif url == '/home-3' }}
+            {{ partial:layout/home3_layout }}
+        {{ else }}
+            {{ partial:layout/home_layout }}
+
+        <!-- Newsletter Popup -->
+        <!-- link that opens popup -->
+        <a class="newsletter-popup-link hidden" href="#newsletter-popup">Newsletter Popup</a>
+        <!-- Newsletter Popup box-->
+        <div id="newsletter-popup" class="hidden mfp-hide mx-auto max-w-[850px] relative">
+            <div class="bg-white rounded-2xl relative overflow-hidden">
+                <img src="{{ theme:asset src='assets/images/newsletter-shape.svg' }}" alt="newsletter-shape" class="block absolute top-0 left-0 max-w-[200px] md:max-w-full">
+                <div class="flex flex-wrap items-center">
+                    <div class="pt-10 md:py-6 px-10 sm:px-16 w-full sm:w-1/2 relative z-1 text-center sm:text-left">
+                        <h2 class="text-2xl md:text-3xl mb-2">Our Newsletter</h2>
+                        <p class="mb-6 text-dark-800">Pellentesque dignissim enim sit amet venenatis urna cursus.</p>
+                        <!-- newsletter form -->
+                        <form action="" class="relative">
+                            <input type="email" placeholder="Email address" class="form-control bg-gray-400 border border-primary-800 w-full rounded-5xl py-3 pl-6 pr-10">
+                            <button type="submit" class="btn btn-primary absolute top-2 right-2 w-[35px] h-[35px] p-0 max-w-full min-w-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                    <path
+                                    d="M13.4095 1.3375C13.4095 0.923287 13.0737 0.587501 12.6595 0.5875L5.90948 0.587501C5.49526 0.587501 5.15948 0.923287 5.15948 1.3375C5.15948 1.75171 5.49526 2.0875 5.90948 2.0875H11.9095V8.0875C11.9095 8.50171 12.2453 8.8375 12.6595 8.8375C13.0737 8.8375 13.4095 8.50171 13.4095 8.0875L13.4095 1.3375ZM1.67877 13.3789L13.1898 1.86783L12.1291 0.807171L0.618107 12.3182L1.67877 13.3789Z"
+                                    fill="currentColor" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="w-full sm:w-1/2">
+                        <img src="{{ theme:asset src='assets/images/newsletter-romantic-getaway-bro.svg' }}" alt="newsletter img" class="block ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Newsletter popup -->
+        <!-- Cookei popup -->
+        <!-- link that opens popup -->
+        <a class="cookei-popup-link hidden" href="#cookei-popup">Cookei Popup</a>
+
+        <div id="cookei-popup" class="hidden mfp-hide cookei-popup mx-auto max-w-[550px] relative">
+            <div class="bg-primary-900 rounded-4xl py-6 px-5 md:px-8">
+                <div class="text-center text-white">
+                    <div class="-mt-6 -ml-8">
+                        <img src="{{ theme:asset src='assets/images/cookie-img.png' }}" alt="cookie-img" class="block ">
+                    </div>
+                    <h2 class="text-2xl md:text-3xl text-white mb-5">Our Cookie policy</h2>
+                    <p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Ac
+                    odio tempor orci dapibus ultrices.</p>
+                    <a href="javascript:;" class="max-w-full btn bg-white text-dark-900 mb-5 hover:bg-dark-900 hover:text-white">Okay, I Agree</a>
+                    <p class="text-md mb-0">I don’t want to see this anymore.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Cookei popup -->
+
+        {{ /if }}
+
+        <!-- Custom Libraries script js start -->
+        <!-- jquery min js file -->
+        <script src="{{ theme:asset src='assets/js/jquery.min.js' }}"></script>
+        <!-- Swiper bundle js file -->
+        <script src="{{ theme:asset src='assets/js/swiper-bundle.min.js' }}"></script>
+
+
+
+
+        <!-- custom script js -->
+        <script src="{{ theme:asset src='assets/js/alpine.min.js' }}"></script>
+        <script src="{{ theme:asset src='assets/js/custom.js' }}"></script>
+
+        <!-- Use this minifiy js for project speeded loading -->
+        <!-- <script src="assets/js/custom.min.js"></script> -->
+
+        <script type="text/javascript">
+
+            document.addEventListener("DOMContentLoaded", function () {
+                let isLoading = false;
+                let pagination = document.getElementById("pagination");
+                let loadMoreBtn = document.getElementById("load-more-btn");
+
+                async function loadMorePosts() {
+                    if (isLoading || !pagination || !pagination.dataset.nextPage) return;
+
+                    isLoading = true;
+                    let nextPageUrl = pagination.dataset.nextPage;
+
+                    $('.wc-spinner').removeClass('hidden');
+
+                    try {
+                        let response = await fetch(nextPageUrl);
+                        let html = await response.text();
+                        let parser = new DOMParser();
+                        let doc = parser.parseFromString(html, "text/html");
+
+                        let newPosts = doc.querySelector("#wc-item-list").innerHTML;
+                        let newPagination = doc.querySelector("#pagination");
+
+                        if (newPosts) {
+                            document.getElementById("wc-item-list").insertAdjacentHTML("beforeend", newPosts);
+                        }
+
+                        if (newPagination) {
+                            pagination.dataset.nextPage = newPagination.dataset.nextPage || "";
+                        } else {
+                            pagination.remove();
+                        }
+                    } catch (error) {
+                        console.error("Error loading more posts:", error);
+                    } finally {
+                        isLoading = false;
+                    }
+
+                    $('.wc-spinner').addClass('hidden');
+
+                }
+
+                if (loadMoreBtn) {
+                    loadMoreBtn.addEventListener("click", loadMorePosts);
+                }
+            });
+
+        </script>
+
+    </body>
+</html>

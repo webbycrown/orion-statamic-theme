@@ -1,0 +1,67 @@
+
+<!-- start hero section -->
+<section class="hero-section relative">
+  <div class="container">
+    <div class="relative -mx-5 md:mx-0">
+      {{ banner_image }}
+      <img src="{{ url }}" alt="hero img" class="w-full object-cover h-[250px] sm:h-auto">
+      {{ /banner_image }}
+    </div>
+  </div>
+</section>
+<!-- end hero section -->
+
+<!-- start blog detail section -->
+<section class="relative py-8 lg:py-12">
+  <div class="container">
+    <div class="mb-8 md:mb-10 max-w-[1200px] mx-auto">
+      <h1 class="title mb-2">{{ title }}</h1>
+      {{ description }}
+
+      <blockquote class="border-l-4 border-primary-900 pl-5 py-4">
+        <p class="m-0 text-lg md:text-2xl text-black font-medium">{{ blockquote }}</p>
+      </blockquote>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 my-5 md:my-10">
+        {{ gallery }}
+        <div class="">
+          <img src="{{ url }}" alt="blog-detail-img-1">
+        </div>
+        {{ /gallery }}
+      </div>
+
+      {{ footer_description }}
+    
+
+    <!-- Related Blogs -->
+    <div class="2xl:mt-20 md:mt-16 mt-12">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="title mb-0">Related Blogs</h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-10">
+        <!-- blog box -->
+        {{ related_blogs }}
+        {{ related_blog_link }}
+        <div class="blog-box bg-gray-200 group">
+          <div class="relative overflow-hidden before:pt-[52%] before:block">
+            <a href="{{ url }}" class="absolute top-0 left-0 w-full h-full block">
+              {{ thumb_image }}
+              <img src="{{ url }}" alt="img" class="h-full w-full object-cover transition-all group-hover:scale-110 duration-300">
+              {{ /thumb_image }}
+            </a>
+          </div>
+          <div class="p-4 xl:p-7">
+            <h3 class="border-b border-black/20 lg:pb-4 pb-2.5 lg:mb-5 mb-3"><a href="{{ url }}" class="group-hover:text-primary-900">{{ title }}</a></h3>
+            <p class="m-0">{{ short_description }}</p>
+          </div>
+        </div>
+        {{ /related_blog_link }}
+        {{ /related_blogs }}
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+<!-- end blog detail section -->

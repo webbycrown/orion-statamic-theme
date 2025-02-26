@@ -1,0 +1,23 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Social Details'
+        fields:
+          -
+            handle: social
+            field:
+              type: grid
+              display: Social
+              fields:
+                -
+                  handle: social_title
+                  field:
+                    type: text
+                    display: 'Social Title'
+                -
+                  handle: social_url
+                  field:
+                    type: text
+                    display: 'Social Url'

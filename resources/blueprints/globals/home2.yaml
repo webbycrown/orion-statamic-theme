@@ -1,0 +1,171 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Hero Section'
+        fields:
+          -
+            handle: hero_title
+            field:
+              type: text
+              display: 'Hero Title'
+          -
+            handle: hero_sub_title
+            field:
+              type: text
+              display: 'Hero Sub Title'
+          -
+            handle: hero_banner
+            field:
+              container: assets
+              type: assets
+              display: 'Hero Banner'
+          -
+            handle: hero_key_milestones
+            field:
+              type: grid
+              display: 'Hero Key Milestones'
+              fields:
+                -
+                  handle: milestone_icon
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Milestone Icon'
+                -
+                  handle: milestone_title
+                  field:
+                    type: text
+                    display: 'Milestone Title'
+                -
+                  handle: milestone_description
+                  field:
+                    type: textarea
+                    display: 'Milestone Description'
+      -
+        display: 'Second Section'
+        fields:
+          -
+            handle: side_image
+            field:
+              container: assets
+              type: assets
+              display: 'Side Image'
+          -
+            handle: title
+            field:
+              type: text
+              display: Title
+          -
+            handle: description
+            field:
+              type: textarea
+              display: Description
+          -
+            handle: button_name
+            field:
+              type: text
+              display: 'Button Name'
+          -
+            handle: button_link
+            field:
+              type: text
+              display: 'Button Link'
+      -
+        display: 'Why Choose Section'
+        fields:
+          -
+            handle: choose_title
+            field:
+              type: text
+              display: 'Choose Title'
+          -
+            handle: choose_description
+            field:
+              type: markdown
+              display: 'Choose Description'
+          -
+            handle: choose_milestones
+            field:
+              type: grid
+              display: 'Choose Milestones'
+              fields:
+                -
+                  handle: choose_milestone_count
+                  field:
+                    type: text
+                    display: 'Choose Milestone Count'
+                -
+                  handle: choose_milestone_title
+                  field:
+                    type: text
+                    display: 'Choose Milestone Title'
+          -
+            handle: choose_side_image
+            field:
+              container: assets
+              type: assets
+              display: 'Choose Side Image'
+          -
+            handle: choose_side_description
+            field:
+              type: textarea
+              display: 'Choose Side Description'
+          -
+            handle: choose_side_button_title
+            field:
+              type: text
+              display: 'Choose Side button Title'
+          -
+            handle: choose_side_button_link
+            field:
+              type: text
+              display: 'Choose Side Button link'
+      -
+        display: 'News Section'
+        fields:
+          -
+            handle: news_title
+            field:
+              type: text
+              display: 'News Title'
+          -
+            handle: news_description
+            field:
+              type: textarea
+              display: 'News Description'
+      -
+        display: 'Dream Section'
+        fields:
+          -
+            handle: dream_back_image
+            field:
+              container: assets
+              type: assets
+              display: 'Dream Back Image'
+          -
+            handle: dream_title
+            field:
+              type: text
+              display: 'Dream Title'
+          -
+            handle: dream_description
+            field:
+              type: textarea
+              display: 'Dream Description'
+          -
+            handle: contact_title
+            field:
+              type: text
+              display: 'Contact Title'
+          -
+            handle: contact_button_text
+            field:
+              type: text
+              display: 'Contact Button Text'
+          -
+            handle: contact_button_link
+            field:
+              type: text
+              display: 'Contact Button Link'

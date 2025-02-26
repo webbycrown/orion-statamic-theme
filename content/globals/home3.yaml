@@ -1,0 +1,107 @@
+title: Home3
+data:
+  hero_back_image:
+    - hero-banner-3.jpg
+  hero_title: 'We Build Our Business On Your Trust'
+  hero_sub_title: 'Innovation is the key to success.'
+  hero_button_name: 'Contact Now'
+  hero_button_link: /contact
+  we_do_title: 'What We do?'
+  key_milestones:
+    -
+      id: m7k3g9f6
+      milestone_icon:
+        - what-we-do-construction.svg
+      milestone_title: Construction
+      milestone_description: 'Our construction services are defined by precision and quality. We specialize in building everything from residential homes to commercial structures, ensuring that each project meets industry standards and exceeds client expectations. With a focus on sustainability and innovation, we turn visions into reality.'
+    -
+      id: m7k47n7y
+      milestone_icon:
+        - what-we-do-renovations.svg
+      milestone_title: Renovations
+      milestone_description: 'Our renovation expertise revitalizes old spaces. Whether it’s a home renovation or a reimagining of an office space, we blend style with functionality to create a new environment. Our team handles every aspect of a renovation, from design consultation to completion.'
+    -
+      id: m7k48fru
+      milestone_icon:
+        - what-we-do-project-management.svg
+      milestone_title: 'Project Management'
+      milestone_description: 'Efficient project management is the foundation of successful construction. Our structured approach ensures on-time completion, budget adherence, and seamless team collaboration. From initial planning to final handover, every step is carefully monitored for excellence.'
+    -
+      id: m7k48ruz
+      milestone_icon:
+        - what-we-do-space-management.svg
+      milestone_title: 'Space Management'
+      milestone_description: 'Maximize the potential of your space with our tailored space management services. We analyze, plan, and implement solutions that optimize usability and flow, ensuring your spaces are both functional and aesthetically pleasing.'
+  left_image:
+    - about-image-2.jpg
+  right_image:
+    - about-image-3.jpg
+  left_content_title: 'We Offer The Best Construction Solutions'
+  left_content_description: 'Orion builds modern homes for today’s families. With 9+ years of experience, we build high-quality, green homes and vibrant neighborhoods. Trust Orion to make your dream home a reality. We have worked on many projects, which demonstrate our passion for excellent design and care. With Orion, you are getting more than just a home you are getting something special that tells a story. We take pride in our work and are passionate about creating spaces that people love. Welcome to Orion, where dreams come true.'
+  nether_description: 'Building dreams, one brick at a time: extraordinary construction, and a showcase of interior and exterior design with Orion - your gateway to timeless spaces and modern innovation. Orion acts as a bridge between your expertise and your client’s vision, presenting your work beautifully and accurately.'
+  our_project_title: 'Our Projects'
+  our_project_description: 'Discover the artistry and precision behind our latest construction projects. From innovative designs to sturdy foundations, we bring excellence to every brick and beam. Explore our latest creations, where quality craftsmanship meets modern architecture.'
+  our_projects_sliders:
+    -
+      id: m7k5y66x
+      name: 'AF Painthouse'
+      location: 'Kostos, Paros, Greece'
+      image:
+        - images/recent-projects-img1.jpg
+    -
+      id: m7k5y8yf
+      name: 'Bridge Construction'
+      location: 'River Delta, Aegean Region, Greece'
+      image:
+        - images/recent-projects-img2.png
+    -
+      id: m7k5y9ke
+      name: 'Development of Flyover'
+      location: 'Central Business District, Athens, Greece'
+      image:
+        - images/recent-projects-img3.png
+    -
+      id: m7k5ycmf
+      name: 'Forest House'
+      location: 'Pinewood Valley, Thessaly, Greece'
+      image:
+        - images/recent-projects-img4.png
+  our_title: 'What our customer says?'
+  our_description: 'Our customers love how Orion simplifies the process of building a website with its sleek design, user-friendly features, and professional appeal. It’s the perfect choice for construction businesses.'
+  customer_says:
+    -
+      id: m7k4fke2
+      customer_name: 'Michael R.'
+      customer_feedback: 'Our customers love the quality, dedication, and attention to detail that goes into every project. From dream homes to large-scale industrial construction, they always trust us to deliver exceptional results.'
+    -
+      id: m7k4fv6g
+      customer_name: 'Sarah T.'
+      customer_feedback: 'Working with Orion has been an incredible experience. From designing my dream home to meticulously completing every detail, their team has exceeded all of my expectations. Their attention to detail and commitment to quality is unmatched.'
+    -
+      id: m7k4g79k
+      customer_name: 'James L.'
+      customer_feedback: "Our commercial project was handled flawlessly by Orion. The team worked closely with us every step of the way, ensuring that the design and implementation perfectly matched our vision. We couldn't have asked for a better partner."
+  our_gallery:
+    -
+      id: m7k4hp17
+      gallery_title: 'Residential Towers'
+      gallery_image:
+        - our-gallery-img-1.jpg
+    -
+      id: m7k4imqk
+      gallery_title: 'Corporate Complex'
+      gallery_image:
+        - our-gallery-img-2.jpg
+    -
+      id: m7k4in7o
+      gallery_title: 'Modern Villas'
+      gallery_image:
+        - our-gallery-img-3.jpg
+    -
+      id: m7k4inpw
+      gallery_title: 'Luxury Hotel & Resort'
+      gallery_image:
+        - our-gallery-img-2.jpg
+  footer_title: 'Get the insider perspective'
+  footer_description: 'Gain exclusive insights and behind-the-scenes details with an insider’s perspective on the latest trends, innovations, and expert knowledge.'
+  office: '140 Barbie Street<br> 2nd and 3rd Floors<br> Portland, ME 04101'
