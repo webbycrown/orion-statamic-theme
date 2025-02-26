@@ -1,6 +1,6 @@
 # Orion - Statamic Starter Kit
 
-At Orion Construction, we believe in delivering excellence in every project we undertake. Our commitment to quality, innovation, and sustainability sets us apart as a leader in the construction industry.
+At Orion Statamic, we believe in delivering excellence in every project we undertake. Our commitment to quality, innovation, and sustainability sets us apart as a leader in the construction industry.
 
 ## Pages of Orion
 
@@ -39,7 +39,7 @@ Make sure you're running **Statamic 5.x** for compatibility.
 ### Installing into an existing site
 
 ```bash
-php please starter-kit:install webbycrown/orion-statamic
+php please starter-kit:install webbycrown/orion-statamic-theme
 ```
 
 ### Installing via the Statamic CLI Tool
@@ -47,4 +47,4 @@ php please starter-kit:install webbycrown/orion-statamic
 If you have the [Statamic CLI Tool](https://github.com/statamic/cli) installed, create a new Statamic installation with Orion in one command:
 
 ```bash
-statamic new my-site webbycrown/orion-statamic
+statamic new my-site webbycrown/orion-statamic-theme
