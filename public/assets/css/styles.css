@@ -4497,3 +4497,39 @@ video {
         padding-top: 60%;
     }
 }
+
+
+/* 404 css start */
+
+.wc-error {
+    min-height: calc(100dvh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wc-error .wc-error-content .wc-error-title img{
+    margin: auto;
+}
+.wc-error .wc-error-content .wc-error-title {
+    text-align: center;
+}
+.wc-error .wc-error-content .wc-error-title h3 {
+    font-size: 35px;
+    padding-bottom: 0;
+    line-height: 40px;
+}
+.wc-error .wc-error-content .wc-error-title p {
+    font-size: 16px;
+    padding-bottom: 30px;
+    max-width: 30%;
+    margin: auto;
+    font-weight: 300;
+    line-height: 28px;
+}
+@media screen and (max-width: 991px) {
+    .wc-error .wc-error-content .wc-error-title p {
+        max-width: 100%;
+    }
+}
+
+/* 404 css end  */
