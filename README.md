@@ -31,6 +31,16 @@ At Orion Statamic, we believe in delivering excellence in every project we under
   - Our Gallery Section
   - Footers (3 variants)
 
+## Category Support
+
+- Easily categorize your content using a flexible tag-like interface.
+- Supports multiple categories like:
+  - Portfolio
+  - Small Business
+  - News
+  - Landing Page
+- Enhances organization and filtering of content across pages like blogs, services, and projects.
+
 ## Installation
 
 Follow the [Starter Kit installation instructions](https://statamic.dev/starter-kits/installing-a-starter-kit) to get started with Orion.
