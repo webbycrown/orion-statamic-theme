@@ -1,0 +1,192 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Hero Section'
+        fields:
+          -
+            handle: hero_back_image
+            field:
+              container: assets
+              type: assets
+              display: 'Hero Back Image'
+          -
+            handle: hero_title
+            field:
+              type: text
+              display: 'Hero Title'
+          -
+            handle: hero_sub_title
+            field:
+              type: text
+              display: 'Hero Sub Title'
+          -
+            handle: hero_button_name
+            field:
+              type: text
+              display: 'Hero Button Name'
+          -
+            handle: hero_button_link
+            field:
+              type: text
+              display: 'Hero Button Link'
+      -
+        display: 'What We do Section'
+        fields:
+          -
+            handle: we_do_title
+            field:
+              type: text
+              display: 'We do Title'
+          -
+            handle: key_milestones
+            field:
+              type: grid
+              display: 'Key Milestones'
+              fields:
+                -
+                  handle: milestone_icon
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Milestone Icon'
+                -
+                  handle: milestone_title
+                  field:
+                    type: text
+                    display: 'Milestone Title'
+                -
+                  handle: milestone_description
+                  field:
+                    type: textarea
+                    display: 'Milestone Description'
+          -
+            handle: left_image
+            field:
+              container: assets
+              type: assets
+              display: 'Left Image'
+          -
+            handle: right_image
+            field:
+              container: assets
+              type: assets
+              display: 'Right Image'
+          -
+            handle: left_content_title
+            field:
+              type: text
+              display: 'Left Content Title'
+          -
+            handle: left_content_description
+            field:
+              type: textarea
+              display: 'Left Content Description'
+          -
+            handle: nether_description
+            field:
+              type: textarea
+              display: 'Nether description'
+      -
+        display: 'Our Projects Section'
+        fields:
+          -
+            handle: our_project_title
+            field:
+              type: text
+              display: 'Our Project Title'
+          -
+            handle: our_project_description
+            field:
+              type: textarea
+              display: 'Our Project Description'
+          -
+            handle: our_projects_sliders
+            field:
+              type: grid
+              display: 'Our Projects Sliders'
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    display: Name
+                -
+                  handle: location
+                  field:
+                    type: text
+                    display: Location
+                -
+                  handle: image
+                  field:
+                    container: assets
+                    type: assets
+                    display: Image
+      -
+        display: 'What Our Section'
+        fields:
+          -
+            handle: our_title
+            field:
+              type: text
+              display: 'Our Title'
+          -
+            handle: our_description
+            field:
+              type: textarea
+              display: 'Our Description'
+          -
+            handle: customer_says
+            field:
+              type: grid
+              display: 'Customer Says'
+              fields:
+                -
+                  handle: customer_name
+                  field:
+                    type: text
+                    display: 'Customer Name'
+                -
+                  handle: customer_feedback
+                  field:
+                    type: textarea
+                    display: 'Customer Feedback'
+      -
+        display: 'Our Gallery Section'
+        fields:
+          -
+            handle: our_gallery
+            field:
+              type: grid
+              display: 'Our Gallery'
+              fields:
+                -
+                  handle: gallery_title
+                  field:
+                    type: text
+                    display: 'Gallery Title'
+                -
+                  handle: gallery_image
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Gallery Image'
+      -
+        display: 'Footer Section'
+        fields:
+          -
+            handle: footer_title
+            field:
+              type: text
+              display: 'Footer Title'
+          -
+            handle: footer_description
+            field:
+              type: textarea
+              display: 'Footer Description'
+          -
+            handle: office
+            field:
+              type: text
+              display: Office

@@ -1,0 +1,27 @@
+title: Careers
+data:
+  working_details:
+    -
+      id: m734zcrw
+      working_title: 'Paid time off'
+      working_description: 'We value work-life balance and offer competitive paid time off to help our team members recharge and maintain peak performance. Our flexible PTO policy ensures you can take time when you need it most.'
+    -
+      id: m734zybh
+      working_title: 'Profit Sharing'
+      working_description: 'Share in our success through our comprehensive profit-sharing program. As Orion grows, our team members directly benefit from their contributions to our achievements.'
+    -
+      id: m734zyt9
+      working_title: Retirement
+      working_description: 'Secure your future with our robust retirement package. We offer competitive 401(k) plans with company matching to help you build long-term financial stability.'
+    -
+      id: m734zz91
+      working_title: 'Parental leave'
+      working_description: "We support our team members through life's important moments with comprehensive parental leave policies for both primary and secondary caregivers."
+    -
+      id: m734zzpx
+      working_title: 'Professional Development'
+      working_description: 'Advance your career through our dedicated professional development programs. We invest in continuous learning, certifications, and skill enhancement opportunities.'
+    -
+      id: m735014t
+      working_title: 'Medical, Dental, and Vision insurance'
+      working_description: 'Comprehensive healthcare coverage for you and your family, including premium medical, dental, and vision plans with competitive employee contributions.'

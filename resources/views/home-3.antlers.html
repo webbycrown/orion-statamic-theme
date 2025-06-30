@@ -1,0 +1,203 @@
+
+      <!-- start hero section -->
+      <section
+        class="hero-section relative bg-cover bg-no-repeat bg-left-top min-h-screen flex items-end justify-center"
+        style="background-image: url('{{ home3:hero_back_image }} {{ url }} {{ /home3:hero_back_image }}');">
+        <div class="overlay-background"></div>
+        <div class="container-three relative z-1">
+          <!-- start hero content -->
+          <div class="py-10 lg:py-24 lg:pt-40">
+            <!-- container -->
+            <div class="max-w-[800px] 2xl:max-w-[1170px] mx-auto text-center">
+              <h5 class="sub-title  text-white">{{ home3:hero_sub_title }}</h5>
+              <h1
+                class="my-5 lg:my-8 text-white text-3xl sm:text-4xl 1xl:text-5xl 2xl:text-6xl leading-tight">{{ home3:hero_title }}</h1>
+              <a href="{{ home3:hero_button_link }}" class="all-btn light-btn rounded-full border-white hover:border-primary-900">{{ home3:hero_button_name }}</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero section -->
+      <!-- start What We do? section -->
+      <section class="py-16 xl:py-24">
+        <div class="container-three">
+          <h2 class="title section-title mb-10">{{ home3:we_do_title }}</h2>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-10">
+            {{ home3:key_milestones }}
+            <div>
+              <div class="mb-6 h-[40px] flex items-center">
+                {{ milestone_icon }}
+                <img src="{{ url }}" alt="img" class="">
+                {{ /milestone_icon }}
+              </div>
+              <h3 class="2xl:text-[25px] mb-2 sm:mb-4">{{ milestone_title }}</h3>
+              <p class="m-0">{{ milestone_description }}</p>
+            </div>
+            {{ /home3:key_milestones }}
+
+          </div>
+        </div>
+      </section>
+      <!-- end What We do? section -->
+
+      <!-- start about Image with text section -->
+      <section class="about-image-with-text-section relative overflow-hidden mb-10 md:mb-16 xl:mb-24">
+        <div class="container-three">
+          <div class="flex flex-wrap -mx-3 xl:-mx-5 1xl:-mx-8">
+            <div class="w-full md:w-1/2 px-3 xl:px-5 1xl:px-8 order-2 md:order-1">
+              <div class="overflow-hidden rounded-xl">
+                {{ home3:left_image }}
+                <img src="{{ url }}" alt="img" class="w-full  object-cover" >
+                {{ /home3:left_image }}
+              </div>
+              <div class="mt-10 xl:mt-24">
+                <h2 class="title section-title">{{ home3:left_content_title }}</h2>
+                <p>{{ home3:left_content_description }}</p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3 xl:px-5 1xl:px-8 order-1 md:order-2 mb-5 md:mb-0">
+              <div class="overflow-hidden rounded-xl h-full">
+                {{ home3:right_image }}
+                <img src="{{ url }}" alt="img" class="w-full h-full  object-cover">
+                {{ /home3:right_image }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about Image with text section -->
+
+      <!-- start full text section -->
+      <section class="relative bg-gray-100 py-10 md:py-16 lg:py-24 rounded-t-[30px] sm:rounded-t-[60px] md:rounded-t-[90px]">
+        <div class="container-three">
+          <div class="wp-about-content-images-show">
+            <h3 class="mb-0 text-xl leading-xl md:text-2xl md:leading-2xl lg:text-3xl lg:leading-3xl 1xl:text-4xl 1xl:leading-4xl items-center" style="text-align: center;">{{ home3:nether_description }}</h3>
+          </div>
+        </div>
+      </section>
+      <!-- end full text section -->
+
+      <!-- start Recent Projects section -->
+      <section class="relative pb-0 py-10 md:py-24">
+        <div class="container-three">
+          <div class="max-w-[1250px] mx-auto">
+            <div class="text-center mb-10">
+              <h2 class="title section-title mb-5">{{ home3:our_project_title }}</h2>
+              <p class="m-0">{{ home3:our_project_description }}</p>
+            </div>
+
+            <div class="our-projects-slider-full">
+              {{ home3:our_projects_sliders }}
+              <div class="relative overflow-hidden rounded-2xl md:rounded-6xl before:pt-[44%] before:block min-h-[250px] md:min-h-none z-2 {{ if index < 3 }} md:-mb-[25%] sm:-mb-[170px] -mb-[150px] duration-700 hover:mb-0 cursor-pointer {{ /if }}">
+                <div class="absolute top-0 left-0 w-full h-full our-projects-bg before:w-full">
+                  {{ image }}
+                  <img src="{{ url }}" alt="img" class="h-full w-full object-cover">
+                  {{ /image }}
+                </div>
+                <div class="absolute top-0 left-0 w-full h-full z-1 flex items-end p-5 md:p-14">
+                  <div>
+                    <h4 class="xl:text-xl md:text-lg text-md font-normal font-lexend xl:mb-4 mb-1 text-white">{{ location }}</h4>
+                    <h3 class="1xl:text-3xl 1xl:leading-3xl 2xl:text-4xl 2xl:leading-4xl text-white mb-0">{{ name }}</h3>
+                  </div>
+                </div>
+              </div>
+              {{ /home3:our_projects_sliders}}
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Recent Projects section -->
+
+      <!-- start What our customer says section -->
+      <section class="relative py-10">
+        <div class="container-three">
+          <div class="md:flex">
+            <div class="w-full md:w-1/2">
+              <div class="md:max-w-[640px] mb-5 md:mb-0 md:pr-5">
+                <h2 class="title section-title mb-5">{{ home3:our_title }}</h2>
+                <p class="m-0">{{ home3:our_description }}</p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2">
+              {{ home3:customer_says }}
+              <div class="border-t border-black/10 py-5 lg:flex">
+                <div class="shrink-0 lg:max-w-[160px] xl:max-w-[210px] w-full">
+                  <h5 class="text-[24px] font-semibold">-{{ customer_name }}</h5>
+                </div>
+                <div class="w-full">
+                  <p class="w-full mb-0">“{{ customer_feedback }}“
+                  </p>
+                </div>
+              </div>
+              {{ /home3:customer_says }}
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end What our customer says section -->
+
+      <!-- start Our Gallery section -->
+      <section
+        class="relative py-8 md:py-10 before:-z-1 before:w-1/2 before:h-full before:bg-[#464343] before:absolute before:top-0 before:right-0">
+        <div class="container-three">
+          <h2 class="title section-title mb-5 md:mb-10 z-1 relative">Our Gallery</h2>
+        </div>
+        <!-- Our Gallery slider-->
+        <div class="our-gallery-slider overflow-hidden pl-4 sm:pl-0">
+          <div class="swiper mySwiper pr-4 md:pr-10 sm:pr-[5%] lg:pr-[8%] overflow-visible">
+            <div class="swiper-wrapper">
+              {{ home3:our_gallery }}
+              <div class="swiper-slide">
+                <div class="our-gallery-box">
+                  <div class="our-gallery-img w-full relative before:pt-full before:block">
+                    {{ gallery_image }}
+                    <img src="{{ url }}" alt="img"
+                      class="h-full w-full object-cover absolute top-0 left-0">
+                    {{ /gallery_image }}
+                  </div>
+                  <div class="our-gallery-info pt-6">
+                    <h6 class="mb-2 1xl:text-[34px]">{{ gallery_title }}</h6>
+                    <h2 class="title section-title mb-0">0{{ index | add:1 }}</h2>
+                  </div>
+                </div>
+              </div>
+              {{ /home3:our_gallery }}
+
+            </div>
+          </div>
+          <div class="flex md:hidden justify-end gap-2 slider-custom-arrow pr-10">
+            <div class="swiper-button-prev arrow-slider static m-0 h-8 !text-white ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="23" viewBox="0 0 36 23" fill="none">
+                <g clip-path="url(#clip0_100_117)">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5.44863 12.7578L13.6843 20.9909L11.8315 22.8411L0.439697 11.4493L11.8315 0.0549316L13.6843 1.90777L5.44863 10.1408H31.4118V12.7578H5.44863Z"
+                    fill="currentColor" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_100_117">
+                    <rect width="35.9837" height="22.8987" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="swiper-button-next arrow-slider static m-0 h-8 !text-white ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="37" height="23" viewBox="0 0 37 23" fill="none">
+                <g clip-path="url(#clip0_100_119)">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M31.48 12.7578L23.2443 20.9909L25.0971 22.8411L36.4889 11.4493L25.0971 0.0549316L23.2443 1.90777L31.48 10.1408H5.51679V12.7578H31.48Z"
+                    fill="currentColor" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_100_119">
+                    <rect width="35.9837" height="22.8987" fill="white" transform="matrix(-1 0 0 1 36.9286 0)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Our Gallery section -->

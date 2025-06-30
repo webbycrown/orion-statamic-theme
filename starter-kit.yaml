@@ -1,0 +1,12 @@
+export_paths:
+  - content
+  - resources/blueprints
+  - resources/forms
+  - resources/views
+  - public/assets
+  - public/build
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - vite.config.js
+  - README.md

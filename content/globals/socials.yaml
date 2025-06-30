@@ -1,0 +1,19 @@
+title: Socials
+data:
+  social:
+    -
+      id: m6rrg05p
+      social_title: Facebook
+      social_url: 'https://facebook.com'
+    -
+      id: m6rrg6d7
+      social_title: Instagram
+      social_url: 'https://instagram.com'
+    -
+      id: m6rrgb97
+      social_title: Pinterest
+      social_url: 'https://www.pinterest.com/'
+    -
+      id: m6rrgeis
+      social_title: Youtube
+      social_url: 'https://www.youtube.com/'

@@ -1,0 +1,23 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Working with Orion Section'
+        fields:
+          -
+            handle: working_details
+            field:
+              type: grid
+              display: 'Working Details'
+              fields:
+                -
+                  handle: working_title
+                  field:
+                    type: text
+                    display: 'Working Title'
+                -
+                  handle: working_description
+                  field:
+                    type: textarea
+                    display: 'Working Description'

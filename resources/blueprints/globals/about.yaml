@@ -1,0 +1,29 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Our Team Members Section'
+        fields:
+          -
+            handle: members
+            field:
+              type: grid
+              display: Members
+              fields:
+                -
+                  handle: member_name
+                  field:
+                    type: text
+                    display: 'Member Name'
+                -
+                  handle: member_position
+                  field:
+                    type: text
+                    display: 'Member Position'
+                -
+                  handle: member_image
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Member Image'
