@@ -13,84 +13,35 @@ tabs:
               validate:
                 - required
           -
-            handle: short_description
+            handle: icon
             field:
-              type: markdown
-              display: 'Short Description'
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: icon
+          -
+            handle: image
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: image
           -
             handle: description
             field:
-              type: markdown
-              display: Description
+              type: textarea
+              display: 'Service Description'
+              instructions: 'Short paragraph describing the service'
           -
-            handle: banner_imange
+            handle: button_label
             field:
-              container: assets
-              type: assets
-              display: Banner
+              default: 'Read More'
+              type: text
+              display: 'Button Label'
           -
-            handle: gallery
-            field:
-              max_files: 2
-              container: assets
-              type: assets
-              display: Gallery
-          -
-            handle: key_milestones
-            field:
-              type: grid
-              display: 'Key Milestones'
-              fields:
-                -
-                  handle: milestone_count
-                  field:
-                    type: text
-                    display: 'Milestone Count'
-                -
-                  handle: milestone_title
-                  field:
-                    type: text
-                    display: 'Milestone Title'
-                -
-                  handle: milestone_description
-                  field:
-                    type: textarea
-                    display: 'Milestone Description'
-          -
-            handle: how_it_works
-            field:
-              type: grid
-              display: 'How it Works'
-              fields:
-                -
-                  handle: work_image
-                  field:
-                    container: assets
-                    type: assets
-                    display: 'Work Image'
-                -
-                  handle: work_title
-                  field:
-                    type: text
-                    display: 'Work Title'
-                -
-                  handle: work_description
-                  field:
-                    type: textarea
-                    display: 'Work Description'
-          -
-            handle: related_services
-            field:
-              type: grid
-              display: 'Related Services'
-              fields:
-                -
-                  handle: service_link
-                  field:
-                    collections:
-                      - services
-                    type: link
-                    display: 'Service Link'
+            import: all_page_builder
   sidebar:
     display: Sidebar
     sections:

@@ -1,7 +1,7 @@
 title: Services
-template: services/show
-route: "/services/{slug}"
+template: service/show
 revisions: false
+route: '/service/{slug}'
 date_behavior:
   past: public
   future: private
