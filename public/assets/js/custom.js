@@ -126,7 +126,7 @@ $(document).ready(function () {
   // -------------------------------
   function showPopup(type = "main") {
     isCookieOpen = true;
-
+    $("body").addClass("overflow-hidden");
     // Show overlay
     $overlay.show().removeClass("hidden opacity-0").css("pointer-events", "auto");
 
@@ -135,7 +135,7 @@ $(document).ready(function () {
       .removeClass("cookie-reopen-visible")
       .addClass("cookie-reopen-hidden");
 
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
 
     if (type === "settings") {
       $popup.hide();
@@ -151,7 +151,7 @@ $(document).ready(function () {
   // -------------------------------
   function hidePopup() {
     isCookieOpen = false;
-
+    $("body").removeClass("overflow-hidden");
     $popup.hide();
     $settings.hide();
     document.body.style.overflow = "";
@@ -217,6 +217,7 @@ if (savedCookie) {
   $(document).on("click", ".closeCookie", function (e) {
     e.preventDefault();
     e.stopPropagation();
+    $("body").removeClass("overflow-hidden");
     hidePopup();
   });
 
