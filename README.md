@@ -111,7 +111,6 @@ statamic new my-site webbycrown/orion-statamic-theme
 - 🏷️ Category support for blogs and projects
 
 ---
-
 <div align="center">
-  <strong>Made with ❤️ by <a href="https://webbycrown.com">WebbyCrown</a></strong>
+  <strong>Made with ❤️ by <a href="https://www.webbycrown.com/custom-statamic-development-services-company/">WebbyCrown Solutions</a></strong>
 </div>
