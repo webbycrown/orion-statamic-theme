@@ -2,6 +2,9 @@
 
 Orion is a modern and flexible Statamic **Starter Kit designed** for **construction, corporate, and professional service websites**. Built with scalability and performance in mind, Orion helps you launch content-rich websites quickly using reusable sections, multiple page variants, and clean content structures.
 
+**Live demo:** https://orion-statamic.webbydemo.in/  
+Control Panel: `/cp` — `admin@example.com` / `password`
+
 ## Pages of Orion
 
 - Home Pages (4 variants)
@@ -27,6 +30,18 @@ Orion is a modern and flexible Statamic **Starter Kit designed** for **construct
 - Quotation Page
 - 404 Error Page
 - Packages Page
+
+## Collections
+
+- **Pages**: Site structure and hierarchical content.
+- **Projects**: Construction and case-work listings (3 variants + detail).
+- **Services**: Professional offerings (3 variants + detail).
+- **Blogs**: News and articles (multiple listing and detail layouts).
+- **Teams**: Staff listing and profiles.
+- **Job positions**: Careers content.
+- **Packages**: Pricing packages.
+- **Galleries**: Photo sets.
+- **Testimonials** and **FAQs**.
 
 ## Features of Orion
 
